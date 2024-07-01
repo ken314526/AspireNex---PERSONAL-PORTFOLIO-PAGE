@@ -1,0 +1,27 @@
+{
+  "about": [
+    {
+      "board": "AKTU",
+      "degree": "B.Tech",
+      "year": "2022-2026",
+      "domain": "Computer Science and Engineering",
+      "from": "Pranveer Singh Institute of Technology"
+    },
+    {
+      "board": "ISC",
+      "degree": "Intermediate- 12",
+      "year": "2020-2022",
+      "domain": "Computer Science",
+      "from": "U.P. Kirana Seva Samiti Vidyalaya",
+      "percentage": "Percentage: 92%"
+    },
+    {
+      "board": "ICSE",
+      "degree": "Highschool- 10",
+      "year": "2020-2022",
+      "domain": "Computer Science",
+      "from": "U.P. Kirana Seva Samiti Vidyalaya",
+      "percentage": "Percentage: 91%"
+    }
+  ]
+}

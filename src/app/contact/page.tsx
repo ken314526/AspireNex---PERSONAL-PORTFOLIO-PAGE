@@ -1,4 +1,5 @@
 "use client";
+import { Meteors } from "@/components/ui/meteors";
 import React, { FormEvent, useState } from "react";
 
 export default function Page() {
@@ -45,6 +46,7 @@ export default function Page() {
             Send Message
           </button>
         </form>
+        <Meteors number={20} />
       </div>
     </div>
   );

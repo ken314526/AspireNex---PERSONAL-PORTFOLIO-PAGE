@@ -1,0 +1,53 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": "Facebook Clone",
+      "technologiesUsed": "ReactJS, NodeJS, ExpressJS, REST API, SocketIO, MongoDB, Mongoose, Hashing (for password security)",
+      "description": "A full-stack web application replicating the core features of the Facebook website using ReactJS, NodeJS, SocketIO, ExpressJS, MongoDB, Mongoose, REST API, and Hashing.",
+      "link": "https://github.com/ken314526/Facebook-Clone"
+    },
+    {
+      "id": 2,
+      "name": "SUB-ZZA Pizza Delivery",
+      "technologiesUsed": "ReactJS, NodeJS, ExpressJS, REST API, SocketIO, MongoDB, Mongoose, Hashing (for password security)",
+      "description": "SUB-ZZA Pizza Delivery is an online pizza ordering and delivery platform designed to provide users with a seamless and enjoyable experience. It incorporates modern web technologies to facilitate easy navigation, secure user authentication, and efficient order processing.",
+      "link": "https://github.com/ken314526/Sub-Zza-Food-Delivery-Application"
+    },
+    {
+      "id": 3,
+      "name": "Resume Generator",
+      "technologiesUsed": "ReactJS",
+      "description": "The Resume Generator is a modern web application built using React.js designed to simplify the resume creation process. It allows users to create professional resumes effortlessly with customizable templates and a user-friendly interface.",
+      "link": "https://github.com/ken314526/Resume-Generator"
+    },
+    {
+      "id": 4,
+      "name": "Movie Recommendation System",
+      "technologiesUsed": "Machine Learning, Python, Jupyter Notebook, NumPy, Pandas, NLTK, Scikit-learn, Requests, Streamlit, dotenv",
+      "description": "This project is a movie recommendation system developed using Python and Machine Learning. It utilizes the power of various libraries such as NumPy, Pandas, NLTK, Scikit-learn, and more. The recommendation system is built on a dataset available in the 'dataset' folder. Users are required to extract the files from the dataset folder and follow the instructions to run the system.",
+      "link": "https://github.com/ken314526/Movie-Recommendation-System"
+    },
+    {
+      "id": 5,
+      "name": "VisionTube",
+      "technologiesUsed": "ReactJS, ReduxJS, React Router DOM, React Icons, Axios, Tailwind CSS, Autoprefixer, PostCSS, TypeScript",
+      "description": "VisionTube is a YouTube clone web application built using ReactJS. It aims to provide users with a familiar video streaming experience similar to YouTube, with features such as video search, watch functionality, and a home page showcasing trending videos.",
+      "link": "https://github.com/ken314526/VisionTube"
+    },
+    {
+      "id": 6,
+      "name": "MelodyHub",
+      "technologiesUsed": "Next.js, React, React DOM, Framer Motion, mini-svg-data-uri, Simplex Noise, Tailwind CSS, PostCSS, TypeScript",
+      "description": "MelodyHub is a music academy website built with Next.js, providing a platform for music enthusiasts to explore courses, attend webinars, interact with instructors, and more.",
+      "link": "https://github.com/ken314526/MelodyHub"
+    },
+    {
+      "id": 7,
+      "name": "Personal Portfolio Page",
+      "technologiesUsed": "Next.js, React, React DOM, Framer Motion, mini-svg-data-uri, Simplex Noise, Tailwind CSS, PostCSS, TypeScript",
+      "description": "This web application is built using Next.js and Tailwind CSS. It includes a responsive navigation bar, a hero section, a portfolio showcase, an about page, and a contact form.",
+      "link": "https://github.com/ken314526/AspireNex---PERSONAL-PORTFOLIO-PAGE"
+    }
+  ]
+}

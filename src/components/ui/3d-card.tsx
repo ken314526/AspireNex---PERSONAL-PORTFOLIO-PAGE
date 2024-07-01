@@ -62,11 +62,13 @@ export const CardContainer = ({
           onMouseMove={handleMouseMove}
           onMouseLeave={handleMouseLeave}
           className={cn(
-            "flex items-center justify-center relative transition-all duration-200 ease-linear",
+            "flex items-center justify-center rounded-md relative transition-all duration-200 ease-linear",
             className
           )}
           style={{
             transformStyle: "preserve-3d",
+            background:
+              "linear-gradient(180deg, var(--slate-800), var(--slate-900)",
           }}
         >
           {children}

@@ -1,6 +1,7 @@
 import About from "@/components/About";
 import HeroSection from "../components/HeroSection";
 import Skills from "@/components/Skills";
+import SlidingProjects from "@/components/SlidingProjects";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <HeroSection />
       <About />
       <Skills />
+      <SlidingProjects />
     </main>
   );
 }

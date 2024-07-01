@@ -1,0 +1,68 @@
+{
+  "skills": [
+    {
+      "title": "MERN Stack",
+      "link": "#"
+    },
+    {
+      "title": "NodeJS",
+      "link": "#"
+    },
+    {
+      "title": "ReactJS",
+      "link": "#"
+    },
+    {
+      "title": "NextJS",
+      "link": "#"
+    },
+    {
+      "title": "Python",
+      "link": "#"
+    },
+    {
+      "title": "Django",
+      "link": "#"
+    },
+    {
+      "title": "Java",
+      "link": "#"
+    },
+    {
+      "title": "C/C++",
+      "link": "#"
+    },
+    {
+      "title": "HTML/CSS",
+      "link": "#"
+    },
+    {
+      "title": "Java",
+      "link": "#"
+    },
+    {
+      "title": "JabaScript",
+      "link": "#"
+    },
+    {
+      "title": "OOPs",
+      "link": "#"
+    },
+    {
+      "title": "REST API",
+      "link": "#"
+    },
+    {
+      "title": "DBMS - MongoDB",
+      "link": "#"
+    },
+    {
+      "title": "DBMS - MySQL",
+      "link": "#"
+    },
+    {
+      "title": "DSA Problem Solving",
+      "link": "#"
+    }
+  ]
+}

@@ -69,6 +69,10 @@ export const Card = ({
         "rounded-2xl h-full w-full p-4 overflow-hidden bg-black border border-transparent dark:border-white/[0.2] group-hover:border-slate-700 relative -z-0",
         className
       )}
+      style={{
+        background:
+          "linear-gradient(180deg, var(--slate-800), var(--slate-900)",
+      }}
     >
       <div className="relative z-10">
         <div className="p-4">{children}</div>

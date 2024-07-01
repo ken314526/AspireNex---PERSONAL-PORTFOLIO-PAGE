@@ -44,25 +44,28 @@ export default function Footer() {
         </div>
 
         <div>
-          <h2 className="text-white text-lg font-semibold mb-4">Follow Us</h2>
+          <h2 className="text-white text-lg font-semibold mb-4">Links</h2>
           <div className="flex space-x-4">
             <a
-              href="https://www.facebook.com/"
+              href="https://www.github.com/ken314526"
               className="hover:text-white transition-colors duration-300"
-            >
-              Facebook
-            </a>
-            <a
-              href="https://www.github.com/"
-              className="hover:text-white transition-colors duration-300"
+              target="_blank"
             >
               Github
             </a>
             <a
-              href="https://www.instagram.com/"
+              href="https://leetcode.com/u/ken314526"
               className="hover:text-white transition-colors duration-300"
+              target="_blank"
             >
-              Instagram
+              Leetcode
+            </a>
+            <a
+              href="https://www.hackerrank.com/profile/CSAIML_1530010"
+              className="hover:text-white transition-colors duration-300"
+              target="_blank"
+            >
+              HackerRank
             </a>
           </div>
         </div>
