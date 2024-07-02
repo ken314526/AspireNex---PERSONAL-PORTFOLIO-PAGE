@@ -46,7 +46,6 @@ export default function Page() {
             Send Message
           </button>
         </form>
-        <Meteors number={20} />
       </div>
     </div>
   );
