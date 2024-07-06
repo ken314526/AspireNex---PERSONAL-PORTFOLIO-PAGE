@@ -5,7 +5,7 @@ import aboutData from "@/data/about.json";
 
 export default function About() {
   return (
-    <div id="about">
+    <div className="pt-20" id="about">
       <p className="text-4xl text-center font-bold">About</p>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         {aboutData.about.map((data) => (

@@ -1,36 +1,10 @@
 "use client";
 import React, { useState } from "react";
 import { FaBars } from "react-icons/fa";
+import navlinksData from "@/data/navlinks.json";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
-  const navlinks = [
-    {
-      id: 1,
-      name: "Home",
-      link: "/",
-    },
-    {
-      id: 2,
-      name: "About",
-      link: "/#about",
-    },
-    {
-      id: 3,
-      name: "Skills",
-      link: "/#skills",
-    },
-    {
-      id: 4,
-      name: "Projects",
-      link: "/projects",
-    },
-    {
-      id: 5,
-      name: "Contact Me",
-      link: "/contact",
-    },
-  ];
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -60,7 +34,7 @@ export default function Navbar() {
           id="navbar-sticky"
         >
           <ul className="w-full flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-            {navlinks.map((nl) => (
+            {navlinksData.navlinks.map((nl) => (
               <li key={nl.id}>
                 <a
                   href={nl.link}

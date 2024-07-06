@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import footerlinksData from "@/data/footerlinks.json";
 
 export default function Footer() {
   return (
@@ -8,65 +9,32 @@ export default function Footer() {
         <div>
           <h2 className="text-white text-lg font-semibold mb-4">Quick Links</h2>
           <ul>
-            <li>
-              <a
-                href="#"
-                className="hover:text-white transition-colors duration-300"
-              >
-                Home
-              </a>
-            </li>
-            <li>
-              <a
-                href="#about"
-                className="hover:text-white transition-colors duration-300"
-              >
-                About
-              </a>
-            </li>
-            <li>
-              <a
-                href="/projects"
-                className="hover:text-white transition-colors duration-300"
-              >
-                Projects
-              </a>
-            </li>
-            <li>
-              <a
-                href="/contact"
-                className="hover:text-white transition-colors duration-300"
-              >
-                Contact Me
-              </a>
-            </li>
+            {footerlinksData.quicklinks.map((ql) => (
+              <li key={ql.id}>
+                <a
+                  href={ql.link}
+                  className="hover:text-white transition-colors duration-300"
+                >
+                  {ql.name}
+                </a>
+              </li>
+            ))}
           </ul>
         </div>
 
         <div>
           <h2 className="text-white text-lg font-semibold mb-4">Links</h2>
           <div className="flex space-x-4">
-            <a
-              href="https://www.github.com/ken314526"
-              className="hover:text-white transition-colors duration-300"
-              target="_blank"
-            >
-              Github
-            </a>
-            <a
-              href="https://leetcode.com/u/ken314526"
-              className="hover:text-white transition-colors duration-300"
-              target="_blank"
-            >
-              Leetcode
-            </a>
-            <a
-              href="https://www.hackerrank.com/profile/CSAIML_1530010"
-              className="hover:text-white transition-colors duration-300"
-              target="_blank"
-            >
-              HackerRank
-            </a>
+            {footerlinksData.link.map((lk) => (
+              <a
+                href={lk.link}
+                className="hover:text-white transition-colors duration-300"
+                target="_blank"
+                key={lk.id}
+              >
+                {lk.name}
+              </a>
+            ))}
           </div>
         </div>
 
