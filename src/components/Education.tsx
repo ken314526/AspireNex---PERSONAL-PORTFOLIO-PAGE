@@ -7,7 +7,7 @@ export default function Education() {
   return (
     <div>
       <p className="text-4xl text-center font-bold">Education</p>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-4">
         {aboutData.about.map((data) => (
           <CardContainer key={data.board} className="inter-var">
             <CardBody className="relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-gray-700  w-full h-64 flex flex-col items-start justify-center sm:w-[30rem] sm:h-[18rem] rounded-xl p-6">

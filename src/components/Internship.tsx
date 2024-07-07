@@ -44,11 +44,9 @@ export default function Internship() {
                   Duration - {p.duration}
                 </CardItem>
                 <CardItem
-                  translateZ={20}
-                  as={Link}
-                  href={p.link}
-                  target="_blank"
-                  className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white mt-4"
+                  as="p"
+                  translateZ="60"
+                  className="dark:text-neutral-500 text-sm max-w-sm mt-2 text-neutral-300 text-center"
                 >
                   Go →
                 </CardItem>
