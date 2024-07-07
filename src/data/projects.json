@@ -44,10 +44,17 @@
     },
     {
       "id": 7,
-      "name": "Personal Portfolio Page",
+      "name": "Personal Portfolio",
       "technologiesUsed": "Next.js, React, React DOM, Framer Motion, mini-svg-data-uri, Simplex Noise, Tailwind CSS, PostCSS, TypeScript",
       "description": "This web application is built using Next.js and Tailwind CSS. It includes a responsive navigation bar, a hero section, a portfolio showcase, an about page, and a contact form.",
       "link": "https://github.com/ken314526/AspireNex---PERSONAL-PORTFOLIO-PAGE"
+    },
+    {
+      "id": 8,
+      "name": "Quiz Manager",
+      "technologiesUsed": "Next.js, NodeJS, ExpressJS, MongoDB, Mongoose, JWT, Redux, React, React DOM, Framer Motion, mini-svg-data-uri, Simplex Noise, Tailwind CSS, PostCSS, TypeScript",
+      "description": "The Online Quiz Manager is  afull-stack web application designed to facilitate the creation, management, and reporting of quizzes. Built using modern web technologies, it provides a seamless experience for users to create quizzes, add questions, and generate detailed reports.",
+      "link": "https://github.com/ken314526/AspireNex---Quiz-Manager"
     }
   ]
 }

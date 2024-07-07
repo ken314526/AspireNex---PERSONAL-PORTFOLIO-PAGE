@@ -17,19 +17,15 @@
       "link": "#"
     },
     {
+      "title": "ExpressJS",
+      "link": "#"
+    },
+    {
       "title": "Python",
       "link": "#"
     },
     {
       "title": "Django",
-      "link": "#"
-    },
-    {
-      "title": "Java",
-      "link": "#"
-    },
-    {
-      "title": "C/C++",
       "link": "#"
     },
     {
@@ -41,7 +37,11 @@
       "link": "#"
     },
     {
-      "title": "JabaScript",
+      "title": "JavaScript",
+      "link": "#"
+    },
+    {
+      "title": "C/C++",
       "link": "#"
     },
     {
@@ -62,6 +62,14 @@
     },
     {
       "title": "DSA Problem Solving",
+      "link": "#"
+    },
+    {
+      "title": "Bootstrap",
+      "link": "#"
+    },
+    {
+      "title": "Tailwind CSS",
       "link": "#"
     }
   ]
