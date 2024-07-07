@@ -2,14 +2,14 @@
   "internship": [
     {
       "id": 1,
-      "company": "KARTEXA",
+      "company": "KARTEXA - Edfling",
       "role": "ReactJS Developer",
       "description": "Frontend Web Development using ReactJS, Bootstrap, JavaScript with responsiveness in two projects.",
       "development": [
         "Project 1: Edfling main website Contact Us page, Event Details page, Courses page, Certificate page, Profile page, Audit Logs page, Chatting page.",
         "Project 2: Resume Generator App using ReactJS"
       ],
-      "duration": "Three months",
+      "duration": "Two months",
       "startDate": "17/08/2023",
       "endDate": "17/10/2023",
       "link": "https://github.com/ashurohilla/IIDTrackEXA"
