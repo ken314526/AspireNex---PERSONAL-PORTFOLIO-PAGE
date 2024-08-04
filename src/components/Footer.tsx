@@ -23,19 +23,19 @@ export default function Footer() {
         </div>
 
         <div>
-          <h2 className="text-white text-lg font-semibold mb-4">Links</h2>
-          <div className="flex space-x-4">
-            {footerlinksData.link.map((lk) => (
-              <a
-                href={lk.link}
-                className="hover:text-white transition-colors duration-300"
-                target="_blank"
-                key={lk.id}
-              >
-                {lk.name}
-              </a>
+          <h2 className="text-white text-lg font-semibold mb-4">Quick Links</h2>
+          <ul>
+            {footerlinksData.links.map((lk) => (
+              <li key={lk.id}>
+                <a
+                  href={lk.link}
+                  className="hover:text-white transition-colors duration-300"
+                >
+                  {lk.name}
+                </a>
+              </li>
             ))}
-          </div>
+          </ul>
         </div>
 
         <div>

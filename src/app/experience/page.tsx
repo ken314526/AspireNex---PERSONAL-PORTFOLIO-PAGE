@@ -3,10 +3,11 @@ import React from "react";
 import { CardBody, CardContainer, CardItem } from "../../components/ui/3d-card";
 import Link from "next/link";
 import experienceData from "@/data/experience.json";
+import { BackgroundBeams } from "@/components/ui/background-beams";
 
 export default function Page() {
   return (
-    <div className="py-20 pt-18">
+    <div className="py-12 pt-24">
       <p className="text-4xl text-center font-bold">Internship</p>
       <div className="min-h-screen md:mx-2 mx-2 gap-4">
         {experienceData.internship.map((p) => (
@@ -79,6 +80,7 @@ export default function Page() {
           </CardContainer>
         ))}
       </div>
+      <BackgroundBeams className="-z-10" />
     </div>
   );
 }

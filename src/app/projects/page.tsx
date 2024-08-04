@@ -6,7 +6,7 @@ import projectsData from "@/data/projects.json";
 
 export default function page() {
   return (
-    <div className="py-20 pt-18">
+    <div className="py-12 pt-24">
       <p className="text-4xl text-center font-bold">Projects</p>
       <div className="min-h-screen grid grid-cols-1 md:grid-cols-1 md:mx-2 mx-2 lg:grid-cols-2 gap-4">
         {projectsData.projects.map((p) => (

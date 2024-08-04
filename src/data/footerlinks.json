@@ -22,19 +22,25 @@
     }
   ],
 
-  "link": [
+  "links": [
     {
       "id": 1,
+      "name": "LinkedIn",
+      "link": "https://www.linkedin.com/in/abhishek-sharma-5a7b37263/"
+    },
+    {
+      "id": 2,
       "name": "Github",
       "link": "https://www.github.com/ken314526"
     },
     {
-      "id": 2,
+      "id": 3,
       "name": "Leetcode",
       "link": "https://leetcode.com/u/ken314526"
     },
+
     {
-      "id": 3,
+      "id": 4,
       "name": "HackerRank",
       "link": "https://www.hackerrank.com/profile/CSAIML_1530010"
     }

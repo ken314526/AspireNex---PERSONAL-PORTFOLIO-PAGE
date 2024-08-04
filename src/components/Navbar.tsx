@@ -12,9 +12,7 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`fixed w-full z-30 top-0 start-0 end-0 border-b border-gray-600 ${
-        isOpen ? "bg-black" : "dark:bg-gray-900"
-      }`}
+      className={`fixed w-full h-[5rem] z-30 top-0 start-0 end-0 border-b border-gray-600 bg-black`}
     >
       <div className="w-full bg-black flex flex-wrap items-center justify-between p-4">
         <button
